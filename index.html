@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="readme-images/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Car lamborghini</title>
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <div class="overlay" data-overlay></div>
+                <a href="" class="logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+                <nav class="navbar" data-navbar>
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="#home" class="navbar-link" data-navbar-links>Home</a>
+                        </li>
+                        <li>
+                            <a href="#featured-card" class="navbar-link" data-navbar-links>Explore cars</a>
+                        </li>
+                        <li>
+                            <a href="#about-us" class="navbar-link" data-navbar-links>About us</a>
+                        </li>
+                        <li>
+                            <a href="blog" class="navbar-link" data-navbar-links>Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="header-contact">
+                        <a href="tel:3043309169" class="contact-link">304 330 9169</a>
+                        <span class="contact-time">Mon - Sat: 9:00 am -6:00 pm</span>
+                    </div>
+                    <a href="#featured-car" class="btn" aria-labelledby="arial-label-txt">
+                        <ion-icon name="car-outline"></ion-icon>
+                        <span id="arial-label-txt">Explore cars</span>
+                    </a>
+                    <a href="" class="btn user-btn" aria-label="Profile">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a>
+                    <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+                        <span class="one"></span>
+                        <span class="two"></span>
+                        <span class="three"></span>
+
+                    </button>
+                </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section hero" id="home">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2 class="h1 hero-tittle">The aesy to takeover a lease</h2>
+                        <p class="hero-text">
+                            Live in New Your, New Jerset and Connecticut!
+                        </p>
+                    </div>
+                    <div class="hero-banner"></div>
+                    <form action="" class="hero-form">
+                        <div class="input-wrapper">
+                            <lavel for="input-1" class="input-label">Car, model, or brand</lavel>
+                            <input type="text" name="card-model" id="input-1" class="input-field" placeholder="What car are you looking?">
+                        </div>
+                        <div class="input-wrapper">
+                            <lavel for="input-2" class="input-label">Max, monthly payment</lavel>
+                            <input type="text" name="monthly-pay" id="input-2" class="input-field" placeholder="Add an amount in $">
+                        </div>
+                        <div class="input-wrapper">
+                            <lavel for="input-3" class="input-label">Make Year</lavel>
+                            <input type="text" name="year" id="input-3" class="input-field" placeholder="Add aminimal make year">
+                        </div>
+                        <button type="submit" class="btn">Search</button>
+                    </form>
+                   
+                </div>
+            </section>
+
+            <section class="section featured-car" id="fatured-car">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <h2 class="h2 section-title">Feature cars</h2>
+                        <a href="" class="featured-card-link">
+                            <span>view more</span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </a>
+                    </div>
+                    <ul class="featured-car-list">
+                        <li>
+                            <div class="featured-car-card">
+                                <figure class="card-banner">
+                                    <img src="assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="400" class="w-100">
+                                </figure>
+                                <div class="card-content">
+                                    <div class="card-title-wrapper">
+                                        <h3 class="h3 card-title">
+                                            <a href="#">Toyota RAV4</a>
+                                        </h3>
+                                        <data class="year" value="2024">2024</data>
+                                    </div>
+                                    <ul class="card-list">
+                                        <li class="card-list-item">
+                                            <ion-icon name="people-outline"></ion-icon>
+                                            <span class="card-list-item">4 People</span>
+                                        </li>
+                                        <li class="card-list-item">
+                                            <ion-icon name="flash-outline"></ion-icon>
+                                            <span class="card-list-item">Mybrid</span>
+                                        </li>
+                                        <li class="card-list-item">
+                                            <ion-icon name="speedometer-outline"></ion-icon>
+                                            <span class="card-list-item">6.1km / 1-litre</span>
+                                        </li>
+                                        <li class="card-list-item">
+                                            <ion-icon name="hardware-chip-outline"></ion-icon>
+                                            <span class="card-list-item">Automatic</span>
+                                        </li>
+                                    </ul>
+                                    <div class="card-prince-wrapper">
+                                        <p class="card-prince">
+                                            <strong>$440</strong> / Month
+                                        </p>
+                                        <button class="btn fav-btn" aria-label="Add to favourite list">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn">Rent now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        
+        </article>
+    </main>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+</body>
+</html>
